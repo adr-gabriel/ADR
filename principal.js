@@ -13,3 +13,6 @@ introducao-javascript
         <script src="js/principal.js"></script>
     </body>
 </html><h1>adrian</h1><h1 class="titulo">adrian</h1>
+document.querySelector(".titulo");
+var titulo = document.querySelector(".titulo");
+titulo.textContent = "adrian"
