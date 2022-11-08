@@ -206,3 +206,59 @@ botaoAdicionar.addEventListener("click", function(event) {
 
     tabela.appendChild(pacienteTr);
 });
+<button id="botao">clique-me</button>
+<script>
+
+    var botao = document.querySelector('#botao');
+
+    function botaoHandler() {
+
+        alert('Botão clicado');
+    }
+
+     function outroHandler() {
+
+        alert('Botão clicado também!');
+    }
+
+
+    botao.addEventListener('click', botaoHandler);
+    botao.addEventListener('click', outroHandler);
+</script>
+<button id="botao">clique-me</button>
+<script>
+
+    var botao = document.querySelector('#botao');
+
+    function botaoHandler() {
+
+        alert('Botão clicado');
+    }
+
+     function outroHandler() {
+
+        alert('Botão clicado também!');
+    }
+
+
+    botao.onclick = botaoHandler;
+</script>
+<button id="botao">clique-me</button>
+<script>
+
+    var botao = document.querySelector('#botao');
+
+    function botaoHandler() {
+
+        alert('Botão clicado');
+    }
+
+     function outroHandler() {
+
+        alert('Botão clicado também!');
+    }
+
+
+    botao.onclick = botaoHandler;
+    botao.onclick = outroHandler; // substitui botaoHandler
+</script>
